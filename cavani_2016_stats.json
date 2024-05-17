@@ -1,0 +1,481 @@
+{
+    "get": "players",
+    "parameters": {
+        "id": "274",
+        "season": "2016",
+        "team": "85"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "player": {
+                "id": 274,
+                "name": "E. Cavani",
+                "firstname": "Edinson Roberto",
+                "lastname": "Cavani G\u00f3mez",
+                "age": 37,
+                "birth": {
+                    "date": "1987-02-14",
+                    "place": "Salto",
+                    "country": "Uruguay"
+                },
+                "nationality": "Uruguay",
+                "height": "184 cm",
+                "weight": "71 kg",
+                "injured": false,
+                "photo": "https://media.api-sports.io/football/players/274.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 85,
+                        "name": "Paris Saint Germain",
+                        "logo": "https://media.api-sports.io/football/teams/85.png"
+                    },
+                    "league": {
+                        "id": 61,
+                        "name": "Ligue 1",
+                        "country": "France",
+                        "logo": "https://media.api-sports.io/football/leagues/61.png",
+                        "flag": "https://media.api-sports.io/flags/fr.svg",
+                        "season": 2016
+                    },
+                    "games": {
+                        "appearences": 36,
+                        "lineups": 35,
+                        "minutes": 2976,
+                        "number": null,
+                        "position": "Attacker",
+                        "rating": "7.286111",
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": 1,
+                        "out": 13,
+                        "bench": 2
+                    },
+                    "shots": {
+                        "total": 144,
+                        "on": 66
+                    },
+                    "goals": {
+                        "total": 35,
+                        "conceded": null,
+                        "assists": 4,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": 425,
+                        "key": 26,
+                        "accuracy": 81
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": 12
+                    },
+                    "duels": {
+                        "total": 130,
+                        "won": 51
+                    },
+                    "dribbles": {
+                        "attempts": 16,
+                        "success": 7,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": 11,
+                        "committed": 25
+                    },
+                    "cards": {
+                        "yellow": 5,
+                        "yellowred": 0,
+                        "red": 0
+                    },
+                    "penalty": {
+                        "won": 2,
+                        "commited": null,
+                        "scored": 7,
+                        "missed": 1,
+                        "saved": null
+                    }
+                },
+                {
+                    "team": {
+                        "id": 85,
+                        "name": "Paris Saint Germain",
+                        "logo": "https://media.api-sports.io/football/teams/85.png"
+                    },
+                    "league": {
+                        "id": 65,
+                        "name": "Coupe de la Ligue",
+                        "country": "France",
+                        "logo": "https://media.api-sports.io/football/leagues/65.png",
+                        "flag": "https://media.api-sports.io/flags/fr.svg",
+                        "season": 2016
+                    },
+                    "games": {
+                        "appearences": 3,
+                        "lineups": 3,
+                        "minutes": 253,
+                        "number": null,
+                        "position": "Attacker",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": 0,
+                        "out": 2,
+                        "bench": 1
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": 4,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": 0,
+                        "yellowred": 0,
+                        "red": 0
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                },
+                {
+                    "team": {
+                        "id": 85,
+                        "name": "Paris Saint Germain",
+                        "logo": "https://media.api-sports.io/football/teams/85.png"
+                    },
+                    "league": {
+                        "id": 66,
+                        "name": "Coupe de France",
+                        "country": "France",
+                        "logo": "https://media.api-sports.io/football/leagues/66.png",
+                        "flag": "https://media.api-sports.io/flags/fr.svg",
+                        "season": 2016
+                    },
+                    "games": {
+                        "appearences": 3,
+                        "lineups": 2,
+                        "minutes": 190,
+                        "number": null,
+                        "position": "Attacker",
+                        "rating": "6.966666",
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": 1,
+                        "out": 1,
+                        "bench": 4
+                    },
+                    "shots": {
+                        "total": 16,
+                        "on": 7
+                    },
+                    "goals": {
+                        "total": 2,
+                        "conceded": null,
+                        "assists": 1,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": 34,
+                        "key": 1,
+                        "accuracy": 83
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": 0
+                    },
+                    "duels": {
+                        "total": 8,
+                        "won": 3
+                    },
+                    "dribbles": {
+                        "attempts": 1,
+                        "success": 1,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": 2,
+                        "committed": 0
+                    },
+                    "cards": {
+                        "yellow": 0,
+                        "yellowred": 0,
+                        "red": 0
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": 0,
+                        "missed": 0,
+                        "saved": null
+                    }
+                },
+                {
+                    "team": {
+                        "id": 85,
+                        "name": "Paris Saint Germain",
+                        "logo": "https://media.api-sports.io/football/teams/85.png"
+                    },
+                    "league": {
+                        "id": 2,
+                        "name": "UEFA Champions League",
+                        "country": "World",
+                        "logo": "https://media.api-sports.io/football/leagues/2.png",
+                        "flag": null,
+                        "season": 2016
+                    },
+                    "games": {
+                        "appearences": 8,
+                        "lineups": 8,
+                        "minutes": 720,
+                        "number": null,
+                        "position": "Attacker",
+                        "rating": "7.200000",
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": 0,
+                        "out": 1,
+                        "bench": 0
+                    },
+                    "shots": {
+                        "total": 35,
+                        "on": 12
+                    },
+                    "goals": {
+                        "total": 8,
+                        "conceded": null,
+                        "assists": 1,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": 108,
+                        "key": 5,
+                        "accuracy": 79
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": 3
+                    },
+                    "duels": {
+                        "total": 45,
+                        "won": 22
+                    },
+                    "dribbles": {
+                        "attempts": 9,
+                        "success": 2,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": 12,
+                        "committed": 3
+                    },
+                    "cards": {
+                        "yellow": 1,
+                        "yellowred": 0,
+                        "red": 0
+                    },
+                    "penalty": {
+                        "won": 1,
+                        "commited": null,
+                        "scored": 1,
+                        "missed": 0,
+                        "saved": null
+                    }
+                },
+                {
+                    "team": {
+                        "id": 85,
+                        "name": "Paris Saint Germain",
+                        "logo": "https://media.api-sports.io/football/teams/85.png"
+                    },
+                    "league": {
+                        "id": 26,
+                        "name": "International Champions Cup",
+                        "country": "World",
+                        "logo": "https://media.api-sports.io/football/leagues/26.png",
+                        "flag": null,
+                        "season": 2016
+                    },
+                    "games": {
+                        "appearences": 3,
+                        "lineups": 2,
+                        "minutes": 147,
+                        "number": null,
+                        "position": "Attacker",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": 1,
+                        "out": 2,
+                        "bench": 1
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": 1,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": 0,
+                        "yellowred": 0,
+                        "red": 0
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                },
+                {
+                    "team": {
+                        "id": 85,
+                        "name": "Paris Saint Germain",
+                        "logo": "https://media.api-sports.io/football/teams/85.png"
+                    },
+                    "league": {
+                        "id": null,
+                        "name": "Club Friendlies",
+                        "country": null,
+                        "logo": null,
+                        "flag": null,
+                        "season": "2016"
+                    },
+                    "games": {
+                        "appearences": 0,
+                        "lineups": 0,
+                        "minutes": 0,
+                        "number": null,
+                        "position": "Attacker",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": 0,
+                        "out": 0,
+                        "bench": 0
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": 0,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": 0,
+                        "yellowred": 0,
+                        "red": 0
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                }
+            ]
+        }
+    ]
+}
