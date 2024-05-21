@@ -1,15 +1,407 @@
 {
     "get": "players",
     "parameters": {
-        "id": "1555",
+        "id": "157",
         "season": "2016",
         "team": "529"
     },
     "errors": [],
-    "results": 0,
+    "results": 1,
     "paging": {
         "current": 1,
         "total": 1
     },
-    "response": []
+    "response": [
+        {
+            "player": {
+                "id": 157,
+                "name": "L. Su\u00e1rez",
+                "firstname": "Luis Alberto",
+                "lastname": "Su\u00e1rez D\u00edaz",
+                "age": 37,
+                "birth": {
+                    "date": "1987-01-24",
+                    "place": "Salto",
+                    "country": "Uruguay"
+                },
+                "nationality": "Uruguay",
+                "height": "182 cm",
+                "weight": "72 kg",
+                "injured": false,
+                "photo": "https://media.api-sports.io/football/players/157.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 529,
+                        "name": "Barcelona",
+                        "logo": "https://media.api-sports.io/football/teams/529.png"
+                    },
+                    "league": {
+                        "id": 140,
+                        "name": "La Liga",
+                        "country": "Spain",
+                        "logo": "https://media.api-sports.io/football/leagues/140.png",
+                        "flag": "https://media.api-sports.io/flags/es.svg",
+                        "season": 2016
+                    },
+                    "games": {
+                        "appearences": 35,
+                        "lineups": 34,
+                        "minutes": 2865,
+                        "number": null,
+                        "position": "Attacker",
+                        "rating": "7.525714",
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": 1,
+                        "out": 9,
+                        "bench": 3
+                    },
+                    "shots": {
+                        "total": 120,
+                        "on": 58
+                    },
+                    "goals": {
+                        "total": 29,
+                        "conceded": null,
+                        "assists": 13,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": 653,
+                        "key": 62,
+                        "accuracy": 74
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": 11
+                    },
+                    "duels": {
+                        "total": 247,
+                        "won": 105
+                    },
+                    "dribbles": {
+                        "attempts": 93,
+                        "success": 34,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": 44,
+                        "committed": 33
+                    },
+                    "cards": {
+                        "yellow": 8,
+                        "yellowred": 0,
+                        "red": 0
+                    },
+                    "penalty": {
+                        "won": 2,
+                        "commited": null,
+                        "scored": 0,
+                        "missed": 0,
+                        "saved": null
+                    }
+                },
+                {
+                    "team": {
+                        "id": 529,
+                        "name": "Barcelona",
+                        "logo": "https://media.api-sports.io/football/teams/529.png"
+                    },
+                    "league": {
+                        "id": null,
+                        "name": "Copa del Rey",
+                        "country": null,
+                        "logo": null,
+                        "flag": null,
+                        "season": "2016-2017"
+                    },
+                    "games": {
+                        "appearences": 6,
+                        "lineups": 6,
+                        "minutes": 540,
+                        "number": null,
+                        "position": "Attacker",
+                        "rating": "7.183333",
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": 0,
+                        "out": 0,
+                        "bench": 0
+                    },
+                    "shots": {
+                        "total": 13,
+                        "on": 4
+                    },
+                    "goals": {
+                        "total": 4,
+                        "conceded": null,
+                        "assists": 1,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": 120,
+                        "key": 4,
+                        "accuracy": 71
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": 4
+                    },
+                    "duels": {
+                        "total": 51,
+                        "won": 21
+                    },
+                    "dribbles": {
+                        "attempts": 14,
+                        "success": 4,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": 9,
+                        "committed": 11
+                    },
+                    "cards": {
+                        "yellow": 2,
+                        "yellowred": 1,
+                        "red": 0
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": 0,
+                        "missed": 0,
+                        "saved": null
+                    }
+                },
+                {
+                    "team": {
+                        "id": 529,
+                        "name": "Barcelona",
+                        "logo": "https://media.api-sports.io/football/teams/529.png"
+                    },
+                    "league": {
+                        "id": 2,
+                        "name": "UEFA Champions League",
+                        "country": "World",
+                        "logo": "https://media.api-sports.io/football/leagues/2.png",
+                        "flag": null,
+                        "season": 2016
+                    },
+                    "games": {
+                        "appearences": 9,
+                        "lineups": 9,
+                        "minutes": 810,
+                        "number": null,
+                        "position": "Attacker",
+                        "rating": "6.900000",
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": 0,
+                        "out": 0,
+                        "bench": 1
+                    },
+                    "shots": {
+                        "total": 21,
+                        "on": 9
+                    },
+                    "goals": {
+                        "total": 3,
+                        "conceded": null,
+                        "assists": 2,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": 161,
+                        "key": 7,
+                        "accuracy": 71
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": 2
+                    },
+                    "duels": {
+                        "total": 84,
+                        "won": 31
+                    },
+                    "dribbles": {
+                        "attempts": 22,
+                        "success": 4,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": 15,
+                        "committed": 16
+                    },
+                    "cards": {
+                        "yellow": 2,
+                        "yellowred": 0,
+                        "red": 0
+                    },
+                    "penalty": {
+                        "won": 2,
+                        "commited": null,
+                        "scored": 0,
+                        "missed": 0,
+                        "saved": null
+                    }
+                },
+                {
+                    "team": {
+                        "id": 529,
+                        "name": "Barcelona",
+                        "logo": "https://media.api-sports.io/football/teams/529.png"
+                    },
+                    "league": {
+                        "id": 26,
+                        "name": "International Champions Cup",
+                        "country": "World",
+                        "logo": "https://media.api-sports.io/football/leagues/26.png",
+                        "flag": null,
+                        "season": 2016
+                    },
+                    "games": {
+                        "appearences": 3,
+                        "lineups": 3,
+                        "minutes": 213,
+                        "number": null,
+                        "position": "Attacker",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": 0,
+                        "out": 3,
+                        "bench": 0
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": 1,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": 0,
+                        "yellowred": 0,
+                        "red": 0
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                },
+                {
+                    "team": {
+                        "id": 529,
+                        "name": "Barcelona",
+                        "logo": "https://media.api-sports.io/football/teams/529.png"
+                    },
+                    "league": {
+                        "id": null,
+                        "name": "Club Friendlies",
+                        "country": null,
+                        "logo": null,
+                        "flag": null,
+                        "season": "2016"
+                    },
+                    "games": {
+                        "appearences": 1,
+                        "lineups": 1,
+                        "minutes": 32,
+                        "number": null,
+                        "position": "Attacker",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": 0,
+                        "out": 1,
+                        "bench": 0
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": 1,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": 0,
+                        "yellowred": 0,
+                        "red": 0
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                }
+            ]
+        }
+    ]
 }
