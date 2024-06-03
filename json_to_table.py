@@ -1,8 +1,7 @@
 import pandas as pd
 import json
 
-
-with open("cavani_2015_stats.json", "r") as file:
+with open("cavani_2016_stats.json", "r") as file:
     data = json.load(file)
 
 statistics = data["response"][0]["statistics"]
@@ -36,7 +35,4 @@ df.columns = ["team_id", "team_name", "team_logo",
               "cards_yellow", "cards_yellowred", "cards_red",
               "penalty_won", "penalty_committed", "penalty_scored", "penalty_missed", "penalty_saved"]              
 
-
-
-
-df.to_csv("cavani_2015_stats.csv", sep=",", index=False, encoding="utf-8")
+df.to_csv("cavani_2016_stats.csv", sep=",", index=False, encoding="utf-8")
